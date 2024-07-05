@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="SaaYc.01.png">
+    <link rel="stylesheet" href="style.css">
+</head>        
+<body> 
+          <!---Website Menu Page Section -->
+        <div class="menu-bar">
+        <ul>
+        <li><a href="#home"><i class="fa fa-home"></i>Home</a> 
+        </li>
+        <li><a href="#facilitators"><i class="fa fa-camera"></i>Facilitators</a></li>
+            <div class="sub-menu-1">
+                </div>
+            </li>
+            <li><a href="#about3"><i class="fa fa-users"></i>About Us</a>
+            <li><a href="#gallery"><i class="fa fa-users-circle"></i>Gallery</a></li>
+            <li><a href="#"><i class="fa fa-users"></i>Activities</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="#">Robotics</a></li>
+                        <li class="hover-me"><a href="#">Examples</a>
+                            <div class="sub-menu-2">
+                                <ul>
+                                    <li><a href="#">Educational Support Program</a></li>
+                                    <li><a href="#">LIfe Skils</a></li>
+                                    <li><a href="#">Uirtual Reality</a></li>
+                                    <li><a href="#">Code.org</a></li>
+                                    <li><a href="#">Code HS</a></li>
+                                    <li><a href="#">Skech up</a></li>
+                                    <li><a href="#">Food Security</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="hover-me"><a href="#">More Activities</a>
+                            <div class="sub-menu-2">
+                                <ul>
+                                    <li><a href="#">VR</a></li>
+                                    <li><a href="#">vs code</a></li>
+                                    <li><a href="#">Drawing</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+           <li><a href="#contact2"><i class="fa fa-phone"></i>Contact</a></li>
+            </div>
+            </ul>
+            </div>
+
+            <!---Website Home Page Section -->
+            <section id="home">
+                <title>Home-Etwatwa Saayc</title>
+                <link rel="icon" href="SaaYc.01.png">
+                    <h1 class="heading">WELCOME</h1>
+                    <h1 class="heading">TO ETWATWA SAAYC</h1>
+                    <br><br>
+                    <p>Young people living their dreams</p>
+            </section>
+
+            <!---Website Facilitators Page Section -->
+            <section id="facilitators">
+                <title>Facilitators-Etwatwa Saayc</title>
+            <link rel="icon" href="SaaYc.01.png">
+            <div class="content">
+                <h1>Facilitators</h1>
+                <hr>
+               
+               <style>
+                    *{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        body{
+            background-color: #ecf4fb;
+        }
+        .facilitators-gallery{
+            width: 80%;
+            margin: 100px auto 50px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 30px;
+        }
+        .facilitators-gallery img{
+            width: 100%;
+            cursor: pointer;
+        }
+        .facilitators-gallery img:hover{
+            transform: scale(0.8) rotate(-15deg);
+            border-radius: 20px;
+            box-shadow: 0 32px 75px rgba(68,77,136,0.2);
+        }
+        .full-img{
+            width: 100%;
+            height: 100vh;
+            background: rgb(0,0,0,0.9);
+            position: fixed;
+            top: 0;
+            left: 0;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 100;
+        }
+        .full-img img{
+            width: 90%;
+            max-width: 500px;
+        }
+        
+        
+        body{
+            background: lightblue;
+            font-family: monospace;
+        }
+        .containerr{
+            max-width: 100px;
+        }
+        h1{
+            margin-top: 15px;
+            text-align: center;
+        }
+        .facilitators-figure{
+            width: 100%;
+            overflow: hidden;
+            margin: 0;
+            border: 4px solid #fff;
+        }
+        .facilitators-figure img{
+            width: 50%;
+            height: 200px;
+            transition: all .5s cubic-bezier(0.455,0.03, 0.515,0.955);
+            cursor: pointer;
+        }
+        .facilitators-figure  img:hover{
+            transform: scale(1.1);
+        }
+        .facilitators-item{
+            padding: 15px;
+            text-align: center;
+        }
+        .facilitators-info{
+            background: aliceblue;
+            padding: 15px 0;
+        }
+        .facilitators-name{
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 33px;
+        }
+                </style>
+            <div class="facilitators-gallery">
+                <div class="col-3 facilitators-item">
+                    <figure class="facilitators-figure">
+                <img src="nomfundo-profile.jpg">
+                <div class="facilitators-info">
+                    <div class="facilitators-name">Nomfundo Thusini</div>
+                        <div class="facilitators-designation">Center Manager</div>
+                </div>
+            </div>
+                <div class="col-3 facilitators-item">
+                    <figure class="facilitators-figure">
+                <img src="pule-profile.jpg">
+                <div class="facilitators-info">
+                    <div class="facilitators-name">Pule Lekwape</div>
+                        <div class="facilitators-designation">Center Administrator</div>
+                </div>
+            </div>
+                <div class="col-3 facilitators-item">
+                    <figure class="facilitators-figure">
+                <img src="tshepo-profile.jpg">
+                <div class="facilitators-info">
+                    <div class="facilitators-name">Tshepo Tshabalala</div>
+                        <div class="facilitators-designation">Public Relations ,
+                            Cybersecurity Facilitator and
+                            Club House Mentor</div>
+                </div>
+            </div>
+                <div class="col-3 facilitators-item">
+                    <figure class="facilitators-figure">
+                <img src="sbusiso-profile.jpg">
+                <div class="facilitators-info">
+                    <div class="facilitators-name">Sbusiso Tshabalala</div>
+                        <div class="facilitators-designation">NYS Co odinator and ESP Co-Ordinator</div>
+                </div>
+            </div>
+                <div class="col-3 facilitators-item">
+                    <figure class="facilitators-figure">
+                <img src="lorna-profilr.jpg">
+                <div class="facilitators-info">
+                    <div class="facilitators-name">Lorna Mvo</div>
+                        <div class="facilitators-designation">Logostics</div>
+                </div>
+            </div>
+                <div class="col-3 facilitators-item">
+                    <figure class="facilitators-figure">
+                <img src="lungile-profile.jpg">
+                <div class="facilitators-info">
+                    <div class="facilitators-name">Lungile Dlongolo</div>
+                        <div class="facilitators-designation">Administrative assistant</div>
+                </div>
+            </div>
+                <div class="col-3 facilitators-item">
+                    <figure class="facilitators-figure">
+                <img src="londi-profile.png">
+                <div class="facilitators-info">
+                    <div class="facilitators-name">Londile Gubhe</div>
+                        <div class="facilitators-designation">Administrative intern</div>
+                </div>
+            </div>
+                <div class="col-3 facilitators-item">
+                    <figure class="facilitators-figure">
+                <img src="mapholaba.jpg">
+                <div class="facilitators-info">
+                    <div class="facilitators-name">Sbusiso Thwala</div>
+                        <div class="facilitators-designation">Caretaker</div>
+                </div>
+            </div>
+            <div class="col-3 facilitators-item">
+                    <figure class="facilitators-figure">
+                <img src="kabelo.profile.jpg">
+                <div class="facilitators-info">
+                    <div class="facilitators-name">Kabelo Shongwe</div>
+                        <div class="facilitators-designation">software engineer teacher</div>
+                </div>
+            </div>
+        </section>
+
+            <!---Website About Page Section -->
+  <section id="about3">
+    <title>About Us-Etwatwa Saayc</title>
+    <link rel="icon" href="SaaYc.01.png">
+    <div class="maiin">
+        <img src="saayc-01.jpg">
+        <div class="about-text">
+            <h1>About Us</h1>
+            <h5>Etwatwa<span> SAAYC</span></h5>
+            <p>SAAYC is a <span>South African</span>youth development organisation providing training, mentorship, and program support to various youth organisations, leaders, individuals, professionals, and workers. Based in South Africa.The Southern African Association of Youth Clubs (SAAYC) is a registered youth development organisation that facilitates and implements integrated youth development programmes through collaboration with strategic partners for the benefit of young people in Southern Africa.</p>
+            <button type="button"><a href="credo.html">CREDO</a></button>
+            <button type="button"><a href="about.html">VISION</a></button>
+            <button type="button"><a href="mission.html">MISSION</a></button>
+    
+        </div>
+    </div>
+</section>
+    
+            <!---Website gallery Page Section -->
+<section id="gallery">
+    <style>
+        *{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+}
+body{
+background-color: #ecf4fb;
+}
+H1{
+margin-top: 15px;
+text-align: center;
+}
+.facilitatorss-galleery{
+width: 80%;
+margin: 100px auto 50px;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+grid-gap: 30px;
+}
+.facilitatorss-galleery img{
+width: 100%;
+cursor: pointer;
+}
+.facilitatorss-galleery img:hover{
+transform: scale(0.8) rotate(-15deg);
+border-radius: 20px;
+box-shadow: 0 32px 75px rgba(68,77,136,0.2);
+}
+    </style>
+<h1>Our Gallery</h1>
+<div class="facilitatorss-galleery">
+    <img src="gallery2.jpg">
+    <img src="gallery3.jpg">
+    <img src="gallery4.jpg">
+    <img src="gallery5.jpg">
+    <img src="gallery6.jpg">
+    <img src="gallery7.jpg">
+    <img src="gallery8.jpg">
+    <img src="gallery9.jpg">
+    <img src="gallery10.jpg">
+    <img src="gallery11.jpg">
+    <img src="gallery12.jpg">
+    <img src="gallery13.jpg">
+</div>
+</section>
+
+               <!---Website Contact Page Section -->
+            <section id="contact2" class="contact2">
+                <link rel="icon" href="SaaYc.01.png">
+                <title>Contact-Etwatwa Saayc</title>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3582.2670743741096!2d28.47152967335552!3d-26.122833577126737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1setwatwa%20saayc%20tshepo%20themba%20map!5e0!3m2!1sen!2sza!4v1719661632908!5m2!1sen!2sza" width="910" height="280" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="container">
+                <h2>Contact Us</h2>
+                <div class="contact2-wrapper">
+                    <div class="contact2-form">
+                        <h3>Send me a message</h3>
+                        <form>
+                            <div class="form-group">
+                                <input type="temt" name="name" placeholder="Your Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" placeholder="Your Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="subject" name="subject" placeholder="Subject">
+                            </div>
+                            <div class="form-group">
+                                <textarea name="message" placeholder="Your Message"></textarea>
+                            </div>
+                            <button type="submit">Send Message</button>
+                        </form>
+                    </div>
+                    <div class="contact2-info">
+                        <h3>Contact Information</h3>
+                        <p><i class="fa fa-phone" aria-hidden="true"></i>011 025 8506</p>
+                        <p><i class="fa fa-envelope" aria-hidden="true"></i>etwatwa@saayc.co.za</p>
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>3812 23rd Street, Old Etwatwa East,Benoni 1519</p>
+                    </div>
+                </div>
+                </div>
+             </section>
+
+
+
+             
+</body>
+</html>
